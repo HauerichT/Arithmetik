@@ -1,4 +1,4 @@
-public interface Rechenweg {
+public interface IRechenweg {
 
     double berechneErgebnis(double a, double b);
 

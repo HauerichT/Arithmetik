@@ -1,10 +1,9 @@
-public class ArithmetikGenerisch<R extends Rechenweg> {
+public class ArithmetikGenerisch<R extends IRechenweg> {
 
     private R rechnung;
 
     public void bestimmeRechenweg(R r) {
         this.rechnung = r;
-        System.out.println(r.getClass());
     }
 
     public double berechne(double a, double b) {

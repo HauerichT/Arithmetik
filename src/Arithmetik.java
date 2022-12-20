@@ -1,10 +1,9 @@
 public class Arithmetik {
 
-    private Rechenweg rechnung;
+    private IRechenweg rechnung;
 
-    public void bestimmeRechenweg(Rechenweg rechenweg) {
+    public void bestimmeRechenweg(IRechenweg rechenweg) {
         this.rechnung = rechenweg;
-        System.out.println(rechenweg.getClass());
     }
 
     public double berechne(double a, double b) {
